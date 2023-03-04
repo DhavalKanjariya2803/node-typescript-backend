@@ -1,0 +1,35 @@
+{
+  "name": "typescript-backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.ts",
+    "dev": "nodemon ./src/app.ts",
+    "seed": "node ./src/seeds/seedUsers.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.13",
+    "@types/faker": "^6.6.9",
+    "@types/http-errors": "^1.8.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.3",
+    "nodemon": "^2.0.14",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^6.6.6",
+    "http-errors": "^1.7.2",
+    "joi": "^17.4.2",
+    "mongoose": "^6.10.0",
+    "morgan": "^1.10.0"
+  }
+}
